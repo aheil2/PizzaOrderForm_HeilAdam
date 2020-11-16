@@ -1,0 +1,65 @@
+body {
+    padding: 25px;
+    background-image: url("images/pizzabackground.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: grey;
+}
+.tab-pane {
+    padding: 10px;
+}
+h1 {
+    color: antiquewhite;
+    background-color: green;
+    padding-left: 50px;
+    border-style: solid;
+    border-color: antiquewhite;
+
+}
+td {
+    padding-left: 50px;
+}
+fieldset {
+    background-color: antiquewhite;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: green;
+}
+legend {
+    color: green;
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 50px;
+}
+nav {
+    background-color: green;
+    border-color: antiquewhite;
+    border-style: solid;
+    border-width: thick;
+}
+nav a {
+    font-size: 2em;
+    font-weight: bold;
+    color: antiquewhite;
+}
+nav a:hover {
+    color: red;
+    text-decoration: none;
+}
+#orderForm {
+    padding-left: 50px;
+}
+fieldset span {
+    padding-left: 50px;
+}
+button {
+    font-size: 2em;
+    font-weight: bold;
+    background-color: antiquewhite;
+    border-style: solid;
+    border-color: green;
+    border-width: thick;
+    color: green;
+}
