@@ -2,21 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Pistachio's Pizzeria</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        body {
-            padding: 25px;
-            background-color: antiquewhite;
-        }
-        .tab-pane {
-            padding: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
+    <header>
+        <h1>
+            PISTACHIO'S PIZZERIA
+        </h1>
+    </header>
     <nav>
         <ul id="tabs" class="nav nav-tabs nav-fill">
             <li class="nav-item">
@@ -276,6 +273,7 @@
                     TOTAL: <span id="outputTotal"></span><br>
                 </span>
             </fieldset>
+            <br>
             <form id="orderForm">
                 <button id="confirmOrder">PLACE ORDER</button>
             </form>

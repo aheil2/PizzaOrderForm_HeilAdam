@@ -7,7 +7,8 @@ $(document).ready(function () {
         $("#size").change(orderPizza);
         $("#crust").change(orderPizza);
         $("#veggies").change(orderPizza);
-        $("#meats").click(orderPizza);
+        $("#meats").change(orderPizza);
+        $("button").click(confirmOrder);
 
         function showTab(event) {
             event.preventDefault();
@@ -87,6 +88,6 @@ $(document).ready(function () {
         function confirmOrder(event)
         {
             event.preventDefault();
-            $("#outputConfirm").text("Comin' Right Up!");
+            $("#outputConfirm").alert("Comin' Right Up!");
         }
 });
